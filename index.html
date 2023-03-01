@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="es-en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro de Comidas</title>
+    <link rel="stylesheet" href="/style.css">
+    
+</head>
+<body>
+    
+
+    <header class="header">
+        <img src="/img/bg.png" class="bg" alt="">
+        <div class="menu container">
+            <a href="#" class="logo">logo</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="/img/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="/img/car.svg" id="img-carrito" alt="">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+
+        <div class="header-content container">
+
+            <div class="header-txt">
+                <h1> <span>Bienvenido</span>  disfruta de nuestros platillos</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus nesciunt consequatur animi aliquid magnam sint mollitia doloremque, numquam odio, atque obcaecati labore eligendi maxime quisquam officia dignissimos repellat, libero dolor?</p>
+                <a href="#" class="btn-1">Informacion</a>
+                <a href="https://lambent-mousse-ca8077.netlify.app/" class="btn-1">Creador</a>
+
+
+            </div>
+            <div class="header-img">
+                <img src="/img/pl-1.png" alt="">
+            </div>
+
+        </div>
+    </header>
+
+
+    <section class="breakfast container">
+        <h2>Desayuno</h2>
+        <p>
+            Horario 9am - 8pm
+        </p>
+
+        <div class="breakfast-content">
+
+            <div class="breakfast-1">
+                <img src="/img/b1.png" alt="">
+                <h3>Platillo 1</h3>
+            </div>
+
+            <div class="breakfast-1">
+                <img src="/img/b2.png" alt="">
+                <h3>Platillo 1</h3>
+            </div>
+
+            <div class="breakfast-1">
+                <img src="/img/b3.png" alt="">
+                <h3>Platillo 1</h3>
+            </div>
+
+            <div class="breakfast-1">
+                <img src="/img/b4.png" alt="">
+                <h3>Platillo 1</h3>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="info">
+
+        <img src="/img/bg-2.png" class="bg-2" alt="">
+        <div class="info-content container">
+
+            <div class="info-img">
+                <img src="/img/breakfast.png" alt="">
+            </div>
+
+            <div class="info-txt">
+                <h2>La mejor calidad en los productos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem laudantium sapiente tempore perspiciatis optio porro nulla eaque pariatur, unde dolor tempora, magnam veritatis, quis enim suscipit sed magni impedit harum.</p>
+                <a href="#" class="btn-1">Informacion</a>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!--Aqui estan los productos-->
+
+    <main class="products container">
+        <h2>Productos</h2>
+
+        <div class="box-container" id="lista-1">
+
+            <div class="box">
+                <img src="/img/pla1.png" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premiun</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/img/pla2.png" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premiun</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/img/pla3.png" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premiun</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/img/pla4.png" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premiun</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar al carrito</a>
+                </div>
+            </div>
+
+            
+            <div class="box">
+                <img src="/img/pla1.png" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premiun</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="/img/pla2.png" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premiun</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="/img/pla3.png" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premiun</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al carrito</a>
+                </div>
+            </div>
+            
+            <div class="box">
+                <img src="/img/pla4.png" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premiun</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/img/pla1.png" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premiun</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="/img/pla2.png" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premiun</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="/img/pla3.png" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premiun</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al carrito</a>
+                </div>
+            </div>
+            
+            <div class="box">
+                <img src="/img/pla4.png" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premiun</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/img/pla1.png" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premiun</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="/img/pla2.png" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premiun</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="/img/pla3.png" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premiun</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al carrito</a>
+                </div>
+            </div>
+            
+            <div class="box">
+                <img src="/img/pla4.png" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premiun</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/img/pla1.png" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premiun</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="/img/pla2.png" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premiun</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="/img/pla3.png" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premiun</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al carrito</a>
+                </div>
+            </div>
+            
+            <div class="box">
+                <img src="/img/pla4.png" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premiun</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/img/pla1.png" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premiun</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="/img/pla2.png" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premiun</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="/img/pla3.png" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premiun</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al carrito</a>
+                </div>
+            </div>
+            
+            <div class="box">
+                <img src="/img/pla4.png" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premiun</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="btn-2" id="load-more">Cargar Mas</div>
+
+    </main>
+
+
+    <section class="app container">
+
+        <div class="app-txt">
+
+            <h2>Descarga nuestra app descubre ofertas</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia odio aut ut ex sequi dignissimos, amet eligendi, repudiandae laudantium, tempore esse. Illum distinctio quos, cum in debitis libero maiores pariatur!</p>
+
+            <div class="descarga">
+                <img src="/img/store1.png" alt="">
+                <img src="/img/store2.png" alt="">
+            </div>
+
+        </div>
+
+        <div class="app-img">
+            <img src="/img/app.png" alt="">
+        </div>
+
+    </section>
+
+
+    <footer class="footer">
+
+        <h1 class="creador">Creado por <a href="https://lambent-mousse-ca8077.netlify.app/">Jose Miguel Franco Bonilla</a></h1>
+
+        <div class="footer-content container">
+
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>lorem</h3>
+                <div class="descarga">
+                    <img src="/img/store1.png" alt="">
+                    <img src="/img/store2.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>
